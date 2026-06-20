@@ -1,1 +1,23 @@
 ## this is note file
+ 1113  git init
+ 1114  ls -a
+ 1115  cd .git/
+ 1116  ll
+ 1117  cd ..
+ 1118  vim Notes
+ 1119  git status 
+ 1120  cat Notes 
+ 1121  blob 
+ 1122  # blob ==> file
+ 1123  # tree ==> directory 
+ 1124  # commit ==> snapshot 
+ 1125  ls
+ 1126  # working tree ==> el dir ele sha3'al 3aleeh 
+ 1127  # repo 
+ 1128  ls
+ 1129  git status 
+ 1130  git add Notes
+ 1131  git status 
+ 1132  git commit -m "Notes file is added"
+ 1133  git status 
+ 1134  history 
