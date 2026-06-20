@@ -21,3 +21,59 @@
  1132  git commit -m "Notes file is added"
  1133  git status 
  1134  history 
+ 1133  git status 
+ 1134  history 
+ 1135  vim Notes 
+ 1136  git status 
+ 1137  git add Notes
+ 1138  git status 
+ 1139  git commit -m "Added some commands"
+ 1140  git config --list
+ 1141  cat ~/.gitconfig 
+ 1142  cat /etc/gitconfig
+ 1143  ls -a
+ 1144  cat .git/config 
+ 1145  git config --global core.editor vi
+ 1146  cat ~/.gitconfig 
+ 1147  git config --global core.editor vim
+ 1148  cat ~/.gitconfig 
+ 1149  git config --global color.ui true
+ 1150  git status 
+ 1151  touc another-file
+ 1152  touch another-file
+ 1153  git status 
+ 1154  git add another-file 
+ 1155  git status 
+ 1156  echo "Hello, Git" >> file.txt
+ 1157  cat file.txt 
+ 1158  git status 
+ 1159  git add *
+ 1160  git status 
+ 1161  git commit -m "adde two files"
+ 1162  git status 
+ 1163  history 
+ 1164  git log
+ 1165  cd .git/
+ 1166  ls
+ 1167  cd objects/
+ 1168  ll
+ 1169  cd 3a/
+ 1170  ls
+ 1171  ls -l
+ 1172  git cat-file -t 3aab8fcb549efd5f1fdf37c962ac6d5f5ccea878
+ 1173  git cat-file -s 3aab8fcb549efd5f1fdf37c962ac6d5f5ccea878
+ 1174  git cat-file p 3aab8fcb549efd5f1fdf37c962ac6d5f5ccea878
+ 1175  git cat-file -p 3aab8fcb549efd5f1fdf37c962ac6d5f5ccea878
+ 1176  git log
+ 1177  git cat-file -p 40db213926060d70f7cefcec3d23d9000b35c6be
+ 1178  git cat-file -p 94023805edcbcdefbf0ade489dac7aeb609256fc
+ 1179  cd ..
+ 1180  ls
+ 1181  git status
+ 1182  git push
+ 1183  git remote add origin git@github.com:HaythamMohamd/git-depi.git
+ 1184  git remote -v
+ 1185  git branch
+ 1186  git branch -M main
+ 1187  git branch
+ 1188  git push -u origin main
